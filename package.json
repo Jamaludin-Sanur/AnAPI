@@ -1,0 +1,26 @@
+{
+  "name": "scratchpay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node 'src/Server.js'",
+    "dev": "nodemon --inspect=9999 'src/Server.js'",
+    "test": "jest --verbose",
+    "test:dev": "jest --verbose --bail --runInBand --detectOpenHandles --watchAll",
+    "test:debug": "node --inspect-brk ./node_modules/jest/bin/jest.js  --bail --runInBand  --detectOpenHandles --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "us-state-codes": "^1.1.2"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "supertest": "^6.1.3"
+  }
+}
