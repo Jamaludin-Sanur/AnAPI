@@ -26,6 +26,8 @@ vet clinic containing stateCode ‘CA’
 
 - API search filter 'availability' must in format 'HH:MM' 00:00 to 23.59
 
+- Developer familiar with JOI validation <a href="https://github.com/sideway/joi">(ref)</a>
+to know what arguments to pass in 'Service' function (Perhaps this is wrong assumption)
 
 ## Available API
 url:<br/>
